@@ -5,7 +5,7 @@ from decouple import config
 MODE = "DEVELOPMENT"
 
 # Close all open positions and orders
-ABORT_ALL_POSITIONS = False
+ABORT_ALL_POSITIONS = True
 
 # Find Cointegrated Pairs
 FIND_COINTEGRATED = True
@@ -30,6 +30,7 @@ USD_MIN_COLLATERAL = 1880
 
 # Thresholds - Closing
 CLOSE_AT_ZSCORE_CROSS = True
+
 
 # Ethereum Address
 ETHEREUM_ADDRESS = "0xe5987A37b5630ba2D6E10a0Cb2AceadD216ebdb4"
