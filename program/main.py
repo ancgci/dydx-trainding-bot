@@ -5,14 +5,16 @@ from func_public import construct_market_prices
 from func_cointegration import store_cointegration_results
 from func_entry_pairs import open_positions
 from func_exit_pairs import manage_trade_exits
-# from func_messaging import send_message
+from func_messaging import send_message
 
 
 # MAIN FUNCTION
 if __name__ == "__main__":
 
   # Message on start
-#  send_message("Bot launch successful")
+  success = send_message("Bot launch successful")
+  print(success)
+  exit(1)
 
   # Connect to client
   try:
