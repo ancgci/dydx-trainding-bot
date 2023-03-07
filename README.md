@@ -52,5 +52,6 @@ CRON item - 5 Mins
 
 
 # IF YOU USE THIS BOT IT IS AT YOUR OWN RISK #
+- I not garanted profits 
 
 
