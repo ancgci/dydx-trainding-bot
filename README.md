@@ -55,6 +55,7 @@ CRON item - 5 Mins
 
 - I NOT guarantee earnings. 
 
+# This project is licensed under the MIT license #
 
 
 
